@@ -1,0 +1,43 @@
+[{
+	"name": "ColdZera",
+	"rank": 1,
+	"status": true,
+	"country": "Brazil",
+	"thumb": "content/img/coldzera.jpg",
+	"team": "Sk Gaming"
+}, {
+	"name": "Boltz",
+	"rank": 5,
+	"status": true,
+	"country": "Brazil",
+	"thumb": "content/img/boltz.jpg",
+	"team": "Sk Gaming"
+}, {
+	"name": "FerGod",
+	"rank": 3,
+	"status": true,
+	"country": "Brazil",
+	"thumb": "content/img/fer.jpg",
+	"team": "Sk Gaming"
+}, {
+	"name": "Fallen",
+	"rank": 2,
+	"status": true,
+	"country": "Brazil",
+	"thumb": "content/img/fallen.jpeg",
+	"team": "Sk Gaming"
+}, {
+	"name": "Stewie2K",
+	"rank": 4,
+	"status": true,
+	"country": "North America",
+	"thumb": "content/img/stewie2k.jpg",
+	"team": "Sk Gaming"
+}, {
+	"name": "FNS",
+	"rank": 6,
+	"status": false,
+	"country": "Canada",
+	"thumb": "content/img/coldzera.jpg",
+	"team": "Sk Gaming"
+}]

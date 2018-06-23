@@ -1,0 +1,30 @@
+<div class="content">
+    <button ng-click="order='name'"> Sort by Name </button>
+    <button ng-click="order='rank'"> Sort by Rank </button>
+    <button ng-click="order='country'"> Sort by Country </button>
+    <input type="text" ng-model="search" placeholder="search for players">
+    <span> 
+      <div  style="text-align: right" ><a href="" ng-click="removeAll()">Remove All Players</a> </div>
+    </span>
+      <ul id="sk-list">
+         <li ng-repeat="player in Sk | orderBy: order | filter: search " ng-show="player.status">
+            <img ng-src="{{player.thumb}}" style="margin: -12px 10px 0 0; float: left; width: 40px; height: 40px;">
+            <h4 style="text-align: center"> {{player.name}}-{{player.rank}} </h4>
+            <div style="text-align: right">
+            <span style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"> {{player.team}}</span>
+           <span class="belt"> {{player.country}} </span>
+           <div class="remove" ng-click="removeP(player)"> X </div> </div>
+           <hr>
+          </li>
+      </ul>
+    <h1><label class="ss"> Add a new player </label></h1>
+    
+       <form ng-submit="addPlayer()">
+         <input type="text" placeholder="Name of the player" ng-model="newPlayer.name" /> 
+         <input type="text" placeholder="Rank of the player" ng-model="newPlayer.rank" />
+         <input type="text" placeholder="Country of the player" ng-model="newPlayer.country" />   
+         <input type="submit" value="Add a new Player" />
+         </form>
+        
+  </div>
+</div>
